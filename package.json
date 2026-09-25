@@ -13,7 +13,7 @@
     "check:runtime": "node scripts/check-runtime.mjs",
     "check:env": "node scripts/check-env.mjs",
     "setup": "node scripts/setup.mjs",
-    "dev": "node scripts/dev.mjs",
+    "dev": "node --env-file=.env scripts/dev.mjs",
     "db:up": "node scripts/db-up.mjs",
     "db:down": "node scripts/db-down.mjs",
     "auth:render": "node scripts/keycloak-render-realm.mjs",

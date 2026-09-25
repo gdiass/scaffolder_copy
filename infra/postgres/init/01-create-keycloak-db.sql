@@ -1,0 +1,1 @@
+CREATE DATABASE appstart_keycloak;
